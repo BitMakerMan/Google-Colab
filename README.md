@@ -67,8 +67,7 @@ plt.show()
 L'output del codice viene mostrato immediatamente sotto ogni cella.
 
 ---
-
-###⚠️ Limitazioni
+⚠️ Limitazioni
 Tempo di esecuzione : Le sessioni gratuite durano massimo 12 ore consecutive .
 Risorse limitate : L'accesso a GPU/TPU può essere sospeso se si supera un certo uso.
 Memoria RAM : Circa 12-15 GB , insufficiente per dataset molto grandi.
