@@ -33,27 +33,23 @@ Un tipico notebook su Colab potrebbe contenere:
 
 Una cella Markdown:
 
+1 # Analisi vendite trimestrali
+2 Questo notebook analizza le vendite dell'ultimo trimestre usando Pandas.
 
-1
-2
-# Analisi vendite trimestrali
-Questo notebook analizza le vendite dell'ultimo trimestre usando Pandas.
 Una cella di codice:
 python
 
 
-1
-2
-3
-import pandas as pd
-df = pd.read_csv('vendite.csv')
-print(df.head())
+
+1 import pandas as pd
+2 df = pd.read_csv('vendite.csv')
+3 print(df.head())
+
 Un'altra cella di codice:
 python
 
+1 df.plot(kind='bar', x='Mese', y='Totale_vendite')
 
-1
-df.plot(kind='bar', x='Mese', y='Totale_vendite')
 L'output del codice viene mostrato immediatamente sotto ogni cella.
 
 ⚠️ Limitazioni:
